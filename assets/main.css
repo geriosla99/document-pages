@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/depositphotos_11375633-stock-photo-close-up-view-of-the.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 3% 0 3%;
+    font-family: Kaushan Script;
+}
+#navbar{
+    background: #FADE28;
+    padding: 2vw;
+    display: block;
+    width: 320px;
+    position: fixed;
+}
+
+#barra-nav{
+    list-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    padding: 5vh;
+    font-size: 3vh;
+}
+.nav-link:hover{
+    font-size: 3vw;
+    padding: 0.5vh;
+}
+.lista{
+    padding: 10%;
+    border: 2px solid  #bda71d;
+}
+#main-doc{
+    padding: 2vw;
+    background: #FADE28;
+    display: block;
+    position: absolute;
+    margin-left: 320px;
+    padding: 3vw;
+    float: right;
+}
+h1{
+    font-size: 3vw;
+    padding: 3vw;
+}
+.main-section{
+    width: 60%;
+    margin-top: 5vw;
+}
+p{
+    font-size: 2.5vh;
+    color: black;
+    text-align: justify;
+}
+h2{
+    font-size: 4vw;
+}
+@media (max-width: 600) {
+
+    #navbar{
+        margin: auto;
+        width: 100%;
+        display: block;
+    }
+
+}
